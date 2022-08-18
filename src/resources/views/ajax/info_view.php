@@ -14,7 +14,7 @@
         <li>{aj_info_description_line7}</li>
         <li>{aj_info_description_line8}</li>
     </ul>
-    <a class="overlay button" href="index.php?page=team" title="{aj_info_team}">{aj_info_team}</a> <a class="overlay button" href="index.php?page=credits" title="{aj_info_credits}">{aj_info_credits}</a>
+    <a target="_blank" class="button" href="index.php?page=team" title="{aj_info_team}">{aj_info_team}</a> <a target="_blank" class="button" href="index.php?page=credits" title="{aj_info_credits}">{aj_info_credits}</a>
 </div>
 <div class="inner-box last clearfix">
     <h2>{aj_info_images}</h2>
