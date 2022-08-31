@@ -1,6 +1,7 @@
 <?php
 
 $lang = [
+    'rank_delete' => 'Eliminar rango',
     'al_description_message' => 'Mensaje de descripción de la alianza.',
     'al_web_text' => 'Web de la alianza',
     'al_request' => 'Solicitud',

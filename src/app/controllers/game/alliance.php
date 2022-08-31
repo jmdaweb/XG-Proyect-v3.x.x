@@ -1052,7 +1052,7 @@ class Alliance extends BaseController
 
         if (is_array($ranks->getAllRanksAsArray())) {
             foreach ($ranks->getAllRanksAsArray() as $rank_id => $details) {
-                $delete = '<a href="game.php?page=alliance&mode=admin&edit=rights&d=' . $rank_id . '"><img src="' . DPATH . 'alliance/abort.gif" border="0"></a>';
+                $delete = '<a href="game.php?page=alliance&mode=admin&edit=rights&d=' . $rank_id . '"><img src="' . DPATH . 'alliance/abort.gif" border="0" alt="'.$this->langs->line('rank_delete').'"/></a>';
                 $disabled = '';
                 if ($rank_id == 0 or $rank_id == 1) {
                     $delete = '';
