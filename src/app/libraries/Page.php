@@ -627,7 +627,7 @@ class Page
             ['search', $lang->line('lm_search'), '', 'FFF', '', '2', '17'],
             ['preferences', $lang->line('lm_options'), '', 'FFF', '', '2', '21'],
             ['logout', $lang->line('lm_logout'), '', 'FFF', '', '2', ''],
-            ['forums', $lang->line('lm_forums'), '', 'FFF', '', '3', '14'],
+            ['forums', $lang->line('lm_forums'), '', 'FFF', 'true', '3', '14'],
         ];
 
         // BUILD THE MENU
